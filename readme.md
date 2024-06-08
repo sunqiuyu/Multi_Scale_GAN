@@ -3,6 +3,8 @@ This project is the code of the paper "Multi-scale adversarial learning with dif
 
 # Network Architecture
 ![alt 属性文本](MSALDS_UNet.png "The overall framework of our proposed model")
+The overall architecture of the proposed MSALDS-UNet. It integrates a segmentation network with four discriminators. The segmentation network is depicted on the left side, while the four discriminators on the right are placed in every decoding layer of the segmentation network, forming multi-scale adversarial learning, and using DS to supervise difficult areas.
+
 # Usage
 
 1. Required environment
